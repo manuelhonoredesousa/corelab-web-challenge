@@ -20,7 +20,4 @@ CREATE TABLE "colors" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "colors_color_key" ON "colors"("color");
-
--- CreateIndex
 CREATE UNIQUE INDEX "colors_value_key" ON "colors"("value");
