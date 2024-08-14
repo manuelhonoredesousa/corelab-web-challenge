@@ -71,7 +71,7 @@ export default function Home() {
         <PostTask />
         <div className="container m-auto p-8 *:text-[#455a64] ">
           <TaskContainer legend="Favoritas" notes={favoriteNotes} />
-          <TaskContainer legend="Favoritas" notes={nonFavoriteNotes} />
+          <TaskContainer legend="Outras" notes={nonFavoriteNotes} />
         </div>
       </div>
     </main>
