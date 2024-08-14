@@ -7,6 +7,12 @@ Install PNPM:
 npm i pnpm -g
 ```
 
+Install Dependecies:
+
+```bash
+pnpm i
+```
+
 Run migrations:
 
 ```bash
